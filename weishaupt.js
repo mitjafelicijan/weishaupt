@@ -9,8 +9,9 @@
 // colorMultiplier: The multiplier of the color.
 // lightnessThreshold: The threshold of the lightness.
 // alpha: The alpha of the color.
+// frequency: The frequency of the change in milliseconds.
 
-function weishaupt(element = element, spreadSize = 1000, spread = 0, animationSpeed = 3, colorMultiplier = 5, lightnessThreshold = 50, alpha = 0.6) {
+function weishaupt(element = element, spreadSize = 1000, spread = 0, animationSpeed = 2, colorMultiplier = 5, lightnessThreshold = 50, alpha = 0.6, frequency = 1000) {
     // Check if the variable is a DOM element.
     if (!(element instanceof HTMLElement)) {
         console.error('The variable is not a DOM element.');
@@ -98,5 +99,5 @@ function weishaupt(element = element, spreadSize = 1000, spread = 0, animationSp
         const mostPresentColor = getMostPresentColor();
         const rgba = `0 0 ${spreadSize}px ${spread}px rgba(${mostPresentColor.r}, ${mostPresentColor.g}, ${mostPresentColor.b}, ${alpha})`;
         video.style.boxShadow = rgba;
-    }, 1000);
+    }, frequency);
 }
