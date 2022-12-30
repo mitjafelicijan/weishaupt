@@ -1,4 +1,4 @@
-# Weishaupt - Poor man's Ambilight 🪔
+# Weishaupt.js - Poor man's Ambilight 🪔
 
 Adds a halo effect around your video player. It's not as good as Ambilight, only in a browser, but it's free.
 
