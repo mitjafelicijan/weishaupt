@@ -4,9 +4,9 @@ Adds a halo effect around your video player. It's not as good as Ambilight, only
 
 Named after the founder of the Illuminati, [Adam Weishaupt](https://en.wikipedia.org/wiki/Adam_Weishaupt).
 
-Demo is available at [weishaupt.vercel.app](https://weishaupt.vercel.app).
+Demo is available at [weishauptjs.vercel.app](https://weishauptjs.vercel.app).
 
-Note: This is a proof of concept. It's not optimized for performance. And there are still some issues with purely black parts of the video.
+**Note:** This is a proof of concept. It's not optimized for performance. And there are still some issues with purely black parts of the video.
 
 ## Installation and Usage
 
