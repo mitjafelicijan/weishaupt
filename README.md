@@ -17,7 +17,7 @@ Named after the founder of the Illuminati, [Adam Weishaupt](https://en.wikipedia
 </script>
 ```
 
-Run a local server and open the `sample.html` file.
+Run a local server and open the `index.html` file.
 
 ## Options
 
