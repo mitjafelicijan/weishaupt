@@ -6,6 +6,8 @@ Named after the founder of the Illuminati, [Adam Weishaupt](https://en.wikipedia
 
 Demo is available at [weishaupt.vercel.app](https://weishaupt.vercel.app).
 
+Note: This is a proof of concept. It's not optimized for performance. And there are still some issues with purely black parts of the video.
+
 ## Installation and Usage
 
 ```html
